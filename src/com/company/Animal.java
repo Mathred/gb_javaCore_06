@@ -17,6 +17,14 @@ public class Animal {
         classInstancesCounter++;
     }
 
+    public Animal(String name, String color, int age, int maxRunDistance){
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.maxRunDistance = maxRunDistance;
+        classInstancesCounter++;
+    }
+
     public void info(){
         System.out.println("name: " + name + " color: " + color + " age: " + age);
     }
